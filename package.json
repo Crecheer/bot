@@ -1,0 +1,23 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node .",
+    "deploy-guild": "node ./deploy-commands-guild",
+    "deploey": "node ./deploy-commands-global"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.87",
+    "axios": "^1.13.2",
+    "discord.js": "^14.25.1",
+    "node-fetch": "^3.3.2",
+    "undici": "^7.16.0"
+  }
+}
