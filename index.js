@@ -70,6 +70,4 @@ for (const f of eventFiles) {
     }
 }
 
-
-
-client.login(token)
+client.login(token);
